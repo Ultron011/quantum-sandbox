@@ -2,6 +2,8 @@
 
 ### Self-Healing Multi-Agent Secure Execution Engine
 
+https://github.com/user-attachments/assets/7a7afda7-a81b-40d1-aa54-dfa6b7e40ae5
+
 QuantumSandbox is a production-grade, highly secure **agentic code generation and runtime engine** built from first principles in Bun. It solves the critical fragility and security bottlenecks of modern LLM code generators by virtualizing execution spaces and implementing a genetic self-correction loop.
 
 Instead of writing static script generators that risk infinite loops, memory leaks, system escapes, or syntax crashes, QuantumSandbox runs a **Generative Adversarial Swarm** (Builder & Auditor) to write and aggressively test code in a V8 isolated sandbox, recursively repairing faults using deep stack trace analysis.
@@ -130,10 +132,3 @@ Once booted, open your browser and navigate to:
 Type a requirement (e.g., *"Write a function named 'validateEmail' that checks if a string is a valid email. Include three test cases."*), click **"Compile & Heal"**, and watch the live self-correcting terminal in action!
 
 ---
-
-## 🏆 Resume Highlight: Systems Skills Gained
-By developing and deploying QuantumSandbox, you master key enterprise-level disciplines:
-*   **Sandboxed Virtualization**: V8 scope isolation, context creation, stdout capturing, and timeout thread interrupts.
-*   **Adversarial Swarm Engineering**: Designing multi-agent cooperative loops and deterministic JSON contract schemas.
-*   **Exception Handlers & Compiler Diagnostics**: Parsing call stacks, reading trace logs, and executing recursive correction algorithms.
-*   **Web Streams & Real-Time SSE**: Pushing continuous logging events over HTTP connections in Bun.
